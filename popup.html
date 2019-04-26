@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <title>UE QuickLaunch</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com.css?family=OpenSans" type="text/css">
+        
+        <style>
+            html, body {
+                font-family: 'Open Sans', sans-serif;
+                font-size: 14px;
+                margin: 0;
+                min-height: 180px;
+                padding: 0;
+                width: 350px;
+            }
+
+            h1 {
+                font-family: 'Menlo', monospace;
+                font-size: 25px;
+                font-weight: 400;
+                margin: 0;
+                color: purple;
+            }
+            
+            .modal-icons {
+                border-top: 0.5px solid #dadada;
+                height: 50px;
+                width: 100%;
+            }
+
+            .logo-icon {
+                vertical-align: text-bottom;
+                margin-right: 12px;
+            }
+
+            .version {
+                color: #444;
+                font-size: 14px;
+            }
+
+            .flex {
+                float: right;
+            }
+            .logo-list{
+                color: purple;
+                height: 55px;
+                width: 55px;
+                padding-top: 10px;
+                padding-right: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="modal-header">
+            <h1 class="logo" style="border-bottom: 0.5px solid #dadada; padding: 16px">
+                <img src="images/ue-logo.png" alt="UE QuickLaunch" class="logo-icon" style="width: 30px">
+                UE QuickLaunch <span class="version">(1.0.0)</span>
+            </h1>
+        </div>
+        <p style="text-align: center">Easy access to UE Links</p>
+        <div class="modal-icons">
+            <div class="flex-container">
+                <div class="flex">
+                    <a href="https://webadvisor.evansville.edu/" target="_blank">
+                        <img src="images/webadv.png" alt="AceMail" class="logo-list" style="padding-right:20px">
+                    </a>
+                </div>
+                <div class="flex">
+                    <a href="http://outlook.office365.com/" target="_blank">
+                        <img src="images/outlookpurplecircle.png" alt="AceMail" class="logo-list">
+                    </a>
+                </div>
+                <div class="flex">
+                    <a href="https://www.evansville.edu/" target="_blank">
+                        <img src="images/uemainpage.png" alt="University of Evansville" class="logo-list">
+                    </a>
+                </div>
+                <div class="flex">
+                    <a href="https://selfservice.evansville.edu/" target="_blank">
+                        <img src="images/myue.png" alt="AceMail" class="logo-list">
+                    </a>
+                </div>
+                <div class="flex">
+                        <a href="https://bblearn.evansville.edu/" target="_blank">
+                            <img src="images/Blackboardcirclepurple.png" alt="BBlearn" class="logo-list">
+                        </a>
+                </div>
+            </div>
+        </div>
+        <script src="popup.js"></script>
+    </body>
+</html>
